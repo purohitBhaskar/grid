@@ -37,9 +37,9 @@
 
 .top-left{
     border-radius: 10px;
-    background-image: url(./solar.jpg);
+    background-image: url(./wind.jpg);
     background-size: cover;
-    background-position: center center;
+    
 }
 
 .bottom-left{
