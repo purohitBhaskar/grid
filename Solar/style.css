@@ -1,0 +1,26 @@
+*{
+    background-color: rgb(75,75,75);
+}
+
+.solar{
+    top: 10%;
+    left: 10%;
+    height: 80vh;
+    width: 90vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    padding: 0;
+    gap: 10px;
+    border: 1px solid white;
+
+}
+
+.section{
+    border-radius: 10px;
+    border: 1px solid green;
+}
