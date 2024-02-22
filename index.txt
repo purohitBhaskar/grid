@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box-1">
+            <div class="left-section">
+                <div class="generator-img">
+                    <img src="https://unsplash.com/wallpapers/screen/oled" alt="">
+                </div>
+                <div class="data-table">
+                    <table className="table">
+                        <thead>
+                          <tr>
+                            <th>Resource</th>
+                            <th>Operating Hours</th>
+                            <th>Power Generated</th>
+                            <th>Cost</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {tableData.map((row, index) => (
+                            <tr key={index}>
+                              <td>{row.resource}</td>
+                              <td>{row.operatingHours}</td>
+                              <td>{row.powerGenerated}</td>
+                              <td>{row.cost}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+        <div class="box" id="box-2">box-2</div>
+      
+    </div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>Energy Dashboard</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="energy-graph">
+            <!-- Energy Generated Today Bar Graph -->
+            <!-- You can add your graph here -->
+        </div>
+        <div class="total-energy">
+            <!-- Total Energy Generated Section -->
+            <!-- Display total energy generated and renewable/non-renewable breakdown -->
+        </div>
+        <div class="operating-hours">
+            <!-- Operating Hours and Energy Stored -->
+            <!-- Display operating hours, energy stored percentage, and SOC -->
+        </div>
+        <div class="alerts">
+            <!-- Alerts and Savings -->
+            <!-- Display alert count and savings information -->
+        </div>
+        <div class="energy-pie-chart">
+            <!-- Energy Generation Comparison Pie Chart -->
+            <!-- You can add your pie chart here -->
+        </div>
+        <div class="power-info">
+            <!-- Power Information -->
+            <!-- Display average current, power, and voltage -->
+        </div>
+    </div>
+</body>
+</html>
