@@ -16,13 +16,11 @@
     border-radius: 10px;
     padding: 0;
     gap: 10px;
-    border: 1px solid white;
 
 }
 
 .section{
     border-radius: 10px;
-    border: 1px solid green;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
@@ -38,14 +36,12 @@
 }
 
 .top-left{
-    border: 1px solid peachpuff;
     border-radius: 10px;
     background-image: url(./solar.jpg);
     background-size: cover;
 }
 
 .bottom-left{
-    border: 1px solid blue;
     border-radius: 10px;
     display: grid;
     grid-template-rows: 1.3fr 1fr;
