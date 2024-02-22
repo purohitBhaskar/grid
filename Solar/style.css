@@ -23,4 +23,49 @@
 .section{
     border-radius: 10px;
     border: 1px solid green;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+
+#left-section{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 0;
+    gap: 5px;
+}
+
+.top-left{
+    border: 1px solid peachpuff;
+    border-radius: 10px;
+    background-image: url(./solar.jpg);
+    background-size: cover;
+}
+
+.bottom-left{
+    border: 1px solid blue;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1.3fr 1fr;
+    gap: 5px;
+}
+
+.bottom-left-content{
+    border: 1px solid aqua;
+    border-radius: 10px;
+
+}
+
+
+#cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+
+.card{
+    border-radius: 10px;
+    border: 1px solid black;
 }
